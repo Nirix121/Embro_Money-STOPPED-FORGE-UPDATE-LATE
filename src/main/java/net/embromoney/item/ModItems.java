@@ -17,12 +17,25 @@ public class ModItems {
     public static final Item FIVE = registerItem("five_embroniy", new Item(new FabricItemSettings()));
     public static final Item TEN = registerItem("ten_embroniy", new Item(new FabricItemSettings()));
     public static final Item FIFTY = registerItem("fifty_embroniy", new Item(new FabricItemSettings()));
+    public static final Item ONE_HUNDRED = registerItem("one_hundred_embroniy", new Item(new FabricItemSettings()));
+    public static final Item FIVE_HUNDRED = registerItem("five_hundred_embroniy", new Item(new FabricItemSettings()));
+    public static final Item THOUSAND = registerItem("thousand_embroniy", new Item(new FabricItemSettings()));
+    public static final Item FIVETHOUSAND = registerItem("five_thousand_embroniy", new Item(new FabricItemSettings()));
+    public static final Item TENTHOUSAND = registerItem("ten_thousand_embroniy", new Item(new FabricItemSettings()));
+
+
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(ONE);
         entries.add(FIVE);
         entries.add(TEN);
         entries.add(FIFTY);
+        entries.add(ONE_HUNDRED);
+        entries.add(FIVE_HUNDRED);
+        entries.add(THOUSAND);
+        entries.add(FIVETHOUSAND);
+        entries.add(TENTHOUSAND);
+
     }
 
     private static Item registerItem(String name, Item item) {

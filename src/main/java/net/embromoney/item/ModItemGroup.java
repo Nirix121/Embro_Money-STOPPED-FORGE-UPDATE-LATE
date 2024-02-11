@@ -19,6 +19,11 @@ public class ModItemGroup {
                         entries.add(ModItems.FIVE);
                         entries.add(ModItems.TEN);
                         entries.add(ModItems.FIFTY);
+                        entries.add(ModItems.ONE_HUNDRED);
+                        entries.add(ModItems.FIVE_HUNDRED);
+                        entries.add(ModItems.THOUSAND);
+                        entries.add(ModItems.FIVETHOUSAND);
+                        entries.add(ModItems.TENTHOUSAND);
 
 
 
