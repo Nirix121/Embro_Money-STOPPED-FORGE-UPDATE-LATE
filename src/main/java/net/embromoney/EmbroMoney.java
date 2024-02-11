@@ -1,7 +1,9 @@
 package net.embromoney;
 
+import net.embromoney.item.ModItems;
 import net.fabricmc.api.ModInitializer;
-
+import net.embromoney.item.ModItems;
+import net.embromoney.item.ModItemGroup;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +13,7 @@ public class EmbroMoney implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItemGroup.registerItemGroups();
+		ModItems.registerModItems();
 	}
 }
