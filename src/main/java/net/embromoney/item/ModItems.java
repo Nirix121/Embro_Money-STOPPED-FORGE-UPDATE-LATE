@@ -15,10 +15,14 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item ONE = registerItem("one_embroniy", new Item(new FabricItemSettings()));
     public static final Item FIVE = registerItem("five_embroniy", new Item(new FabricItemSettings()));
+    public static final Item TEN = registerItem("ten_embroniy", new Item(new FabricItemSettings()));
+    public static final Item FIFTY = registerItem("fifty_embroniy", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(ONE);
         entries.add(FIVE);
+        entries.add(TEN);
+        entries.add(FIFTY);
     }
 
     private static Item registerItem(String name, Item item) {

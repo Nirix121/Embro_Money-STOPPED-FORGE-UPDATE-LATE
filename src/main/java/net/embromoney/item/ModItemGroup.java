@@ -17,6 +17,11 @@ public class ModItemGroup {
                     .icon(() -> new ItemStack(ModItems.ONE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.ONE);
                         entries.add(ModItems.FIVE);
+                        entries.add(ModItems.TEN);
+                        entries.add(ModItems.FIFTY);
+
+
+
 
                         entries.add(Items.DIAMOND);
 
