@@ -3,13 +3,13 @@
 	"id": "embromoney",
 	"version": "${version}",
 	"name": "Embro Money",
-	"description": "This is an mod for Embro server",
+	"description": "This is an mod for Embro server | Discord Nirix_ or Nirix#1017",
 	"authors": [
-		"nirix_  forengeit345"
+		"Nirix_  (thx - forengeit345)"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://discord.gg/embronrepublic",
+		"sources": "https://github.com/Nirix121/Embro_Money"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/embromoney/icon.png",
