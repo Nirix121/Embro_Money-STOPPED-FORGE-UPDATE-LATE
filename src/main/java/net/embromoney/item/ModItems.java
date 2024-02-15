@@ -1,6 +1,7 @@
 package net.embromoney.item;
 
 import net.embromoney.EmbroMoney;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -9,6 +10,8 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.util.Identifier;
+import net.embromoney.item.ModItems;
+
 
 
 
@@ -24,6 +27,17 @@ public class ModItems {
     public static final Item TENTHOUSAND = registerItem("ten_thousand_embroniy", new Item(new FabricItemSettings().maxCount ( 50 )));
 
 
+    public static final Item MILITARY_HELMET_BROWN = registerItem("brown_military_helmet",
+            new ArmorItem(ModArmorMaterials.ONE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+
+    public static final Item MILITARY_CHESTPLATE_BROWN = registerItem("brown_military_chestplate",
+            new ArmorItem(ModArmorMaterials.ONE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+
+    public static final Item MILITARY_LEGGING_BROWN = registerItem("brown_military_leggings",
+            new ArmorItem(ModArmorMaterials.ONE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+
+    public static final Item MILITARY_BOOTS_BROWN = registerItem("brown_military_boots",
+            new ArmorItem(ModArmorMaterials.ONE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(ONE);
@@ -37,7 +51,6 @@ public class ModItems {
         entries.add(TENTHOUSAND);
 
     }
-
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(EmbroMoney.MOD_ID, name), item);
     }

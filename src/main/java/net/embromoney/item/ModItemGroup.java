@@ -1,5 +1,6 @@
 package net.embromoney.item;
 
+
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.embromoney.EmbroMoney;
 import net.minecraft.item.ItemGroup;
@@ -9,6 +10,8 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
+import net.embromoney.item.ModItems;
+
 
 public class ModItemGroup {
     public static final ItemGroup MONEY_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -24,6 +27,11 @@ public class ModItemGroup {
                         entries.add(ModItems.THOUSAND);
                         entries.add(ModItems.FIVETHOUSAND);
                         entries.add(ModItems.TENTHOUSAND);
+
+                        entries.add(ModItems.MILITARY_HELMET_BROWN);
+                        entries.add(ModItems.MILITARY_CHESTPLATE_BROWN);
+                        entries.add(ModItems.MILITARY_LEGGING_BROWN);
+                        entries.add(ModItems.MILITARY_BOOTS_BROWN);
 
 
 
