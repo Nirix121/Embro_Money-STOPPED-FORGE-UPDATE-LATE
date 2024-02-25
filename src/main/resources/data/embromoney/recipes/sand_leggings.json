@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "iNi",
+        "iCi",
+        "i i"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "N": {
+            "item": "minecraft:netherite_leggings"
+        },
+        "C": {
+            "item": "minecraft:sand"
+        }
+    },
+    "result": {
+        "item": "embromoney:sand_military_leggings"
+    }
+}

@@ -34,6 +34,12 @@ public class ModItemGroup {
                         entries.add(ModItems.MILITARY_BOOTS_BROWN);
 
 
+                        entries.add(ModItems.MILITARY_BOOTS_SAND);
+                        entries.add(ModItems.MILITARY_CHESTPLATE_SAND);
+                        entries.add(ModItems.MILITARY_LEGGING_SAND);
+                        entries.add(ModItems.MILITARY_HELMET_SAND);
+
+
 
 
                         entries.add(Items.DIAMOND);

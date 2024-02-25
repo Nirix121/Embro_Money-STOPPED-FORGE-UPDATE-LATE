@@ -29,5 +29,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.MILITARY_LEGGING_BROWN));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.MILITARY_BOOTS_BROWN));
 
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.MILITARY_HELMET_SAND));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.MILITARY_CHESTPLATE_SAND));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.MILITARY_LEGGING_SAND));
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.MILITARY_BOOTS_SAND));
+
     }
 }
