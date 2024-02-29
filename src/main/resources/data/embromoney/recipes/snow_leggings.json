@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "iNi",
+        "iCi",
+        "i i"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "N": {
+            "item": "minecraft:netherite_leggings"
+        },
+        "C": {
+            "item": "minecraft:snow_block"
+        }
+    },
+    "result": {
+        "item": "embromoney:brown_military_leggings"
+    }
+}

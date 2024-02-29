@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "iCi",
+        "iNi",
+        "iii"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "C": {
+            "item": "minecraft:snow_block"
+        },
+        "N": {
+            "item": "minecraft:netherite_chestplate"
+        }
+    },
+    "result": {
+        "item": "embromoney:brown_military_chestplate"
+    }
+}

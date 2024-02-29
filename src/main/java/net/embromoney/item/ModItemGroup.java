@@ -28,18 +28,26 @@ public class ModItemGroup {
                         entries.add(ModItems.FIVETHOUSAND);
                         entries.add(ModItems.TENTHOUSAND);
 
-                        entries.add(ModItems.MILITARY_HELMET_BROWN);
-                        entries.add(ModItems.MILITARY_CHESTPLATE_BROWN);
-                        entries.add(ModItems.MILITARY_LEGGING_BROWN);
                         entries.add(ModItems.MILITARY_BOOTS_BROWN);
+                        entries.add(ModItems.MILITARY_LEGGING_BROWN);
+                        entries.add(ModItems.MILITARY_CHESTPLATE_BROWN);
+                        entries.add(ModItems.MILITARY_HELMET_BROWN);
 
 
                         entries.add(ModItems.MILITARY_BOOTS_SAND);
-                        entries.add(ModItems.MILITARY_CHESTPLATE_SAND);
                         entries.add(ModItems.MILITARY_LEGGING_SAND);
+                        entries.add(ModItems.MILITARY_CHESTPLATE_SAND);
                         entries.add(ModItems.MILITARY_HELMET_SAND);
 
+                        entries.add(ModItems.MILITARY_BOOTS_GREEN);
+                        entries.add(ModItems.MILITARY_LEGGING_GREEN);
+                        entries.add(ModItems.MILITARY_CHESTPLATE_GREEN);
+                        entries.add(ModItems.MILITARY_HELMET_GREEN);
 
+                        entries.add(ModItems.MILITARY_BOOTS_SNOW);
+                        entries.add(ModItems.MILITARY_LEGGING_SNOW);
+                        entries.add(ModItems.MILITARY_CHESTPLATE_SNOW);
+                        entries.add(ModItems.MILITARY_HELMET_SNOW);
 
 
                         entries.add(Items.DIAMOND);

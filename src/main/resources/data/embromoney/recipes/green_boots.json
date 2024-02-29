@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "i i",
+        "NCi"
+    ],
+    "key": {
+        "i": {
+            "item": "minecraft:iron_ingot"
+        },
+        "N": {
+            "item": "minecraft:netherite_boots"
+        },
+        "C": {
+            "item": "minecraft:dirt"
+        }
+    },
+    "result": {
+        "item": "embromoney:green_military_boots"
+    }
+}

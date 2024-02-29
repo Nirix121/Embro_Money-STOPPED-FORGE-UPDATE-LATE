@@ -39,7 +39,6 @@ public class ModItems {
     public static final Item MILITARY_BOOTS_BROWN = registerItem("brown_military_boots",
             new ArmorItem(ModArmorMaterials.ONE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
-    /// ------------------
 
     public static final Item MILITARY_HELMET_SAND = registerItem("sand_military_helmet",
             new ArmorItem(ModArmorSand.FIVE, ArmorItem.Type.HELMET, new FabricItemSettings()));
@@ -53,7 +52,40 @@ public class ModItems {
     public static final Item MILITARY_BOOTS_SAND = registerItem("sand_military_boots",
             new ArmorItem(ModArmorSand.FIVE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
-    //---
+
+
+    public static final Item MILITARY_HELMET_GREEN = registerItem("green_military_helmet",
+            new ArmorItem(ModArmorGreen.TEN, ArmorItem.Type.HELMET, new FabricItemSettings()));
+
+    public static final Item MILITARY_CHESTPLATE_GREEN = registerItem("green_military_chestplate",
+            new ArmorItem(ModArmorGreen.TEN, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+
+    public static final Item MILITARY_LEGGING_GREEN = registerItem("green_military_leggings",
+            new ArmorItem(ModArmorGreen.TEN, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+
+    public static final Item MILITARY_BOOTS_GREEN = registerItem("green_military_boots",
+            new ArmorItem(ModArmorGreen.TEN, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+
+    public static final Item MILITARY_HELMET_SNOW = registerItem("snow_military_helmet",
+            new ArmorItem(ModArmorSnow.ONE_HUNDRED, ArmorItem.Type.HELMET, new FabricItemSettings()));
+
+    public static final Item MILITARY_CHESTPLATE_SNOW = registerItem("snow_military_chestplate",
+            new ArmorItem(ModArmorSnow.ONE_HUNDRED, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+
+    public static final Item MILITARY_LEGGING_SNOW = registerItem("snow_military_leggings",
+            new ArmorItem(ModArmorSnow.ONE_HUNDRED, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+
+    public static final Item MILITARY_BOOTS_SNOW = registerItem("snow_military_boots",
+            new ArmorItem(ModArmorSnow.ONE_HUNDRED, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+
+
+
+
+
+
+
 
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
