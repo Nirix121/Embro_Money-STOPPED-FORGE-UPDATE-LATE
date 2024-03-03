@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "category": "misc",
     "pattern": [
-        "iNi",
+        "tNt",
         "iCi"
     ],
     "key": {
@@ -14,6 +14,9 @@
         },
         "C": {
             "item": "minecraft:sand"
+        },
+        "t": {
+            "item": "embromoney:military_plate"
         }
     },
     "result": {

@@ -15,6 +15,9 @@
         },
         "N": {
             "item": "minecraft:netherite_chestplate"
+        },
+        "t": {
+            "item": "embromoney:military_plate"
         }
     },
     "result": {

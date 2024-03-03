@@ -3,7 +3,7 @@
     "category": "misc",
     "pattern": [
         "iNi",
-        "iCi",
+        "tCt",
         "i i"
     ],
     "key": {
@@ -15,6 +15,9 @@
         },
         "C": {
             "item": "minecraft:cobblestone"
+        },
+        "t": {
+            "item": "embromoney:military_plate"
         }
     },
     "result": {

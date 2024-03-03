@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "embromoney:iron_resin"
+    },
+    "result": "embromoney:military_plate",
+    "experience": 0.1,
+    "cookingtime": 400
+}

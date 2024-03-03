@@ -1,26 +1,18 @@
 {
     "type": "minecraft:crafting_shaped",
-    "category": "misc",
     "pattern": [
-        "tNt",
         "iCi"
     ],
     "key": {
         "i": {
             "item": "minecraft:iron_ingot"
         },
-        "N": {
-            "item": "minecraft:netherite_helmet"
-        },
         "C": {
             "item": "minecraft:cobblestone"
-        },
-        "t": {
-            "item": "embromoney:military_plate"
         }
     },
     "result": {
-        "item": "embromoney:brown_military_helmet",
+        "item": "embromoney:iron_resin",
         "count": 1
     }
 }

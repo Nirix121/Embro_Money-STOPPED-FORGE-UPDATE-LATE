@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "category": "misc",
     "pattern": [
-        "i i",
+        "t t",
         "NCi"
     ],
     "key": {
@@ -14,9 +14,12 @@
         },
         "C": {
             "item": "minecraft:snow_block"
+        },
+        "t": {
+            "item": "embromoney:military_plate"
         }
     },
     "result": {
-        "item": "embromoney:brown_military_boots"
+        "item": "embromoney:snow_military_boots"
     }
 }

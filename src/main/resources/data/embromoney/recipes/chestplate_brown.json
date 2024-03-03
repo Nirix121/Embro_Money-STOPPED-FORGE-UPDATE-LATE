@@ -3,7 +3,7 @@
     "category": "misc",
     "pattern": [
         "iCi",
-        "iNi",
+        "tNt",
         "iii"
     ],
     "key": {
@@ -15,6 +15,9 @@
         },
         "N": {
             "item": "minecraft:netherite_chestplate"
+        },
+        "t": {
+            "item": "embromoney:military_plate"
         }
     },
     "result": {

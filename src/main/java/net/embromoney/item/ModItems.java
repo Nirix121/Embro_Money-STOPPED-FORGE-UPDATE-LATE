@@ -80,10 +80,15 @@ public class ModItems {
             new ArmorItem(ModArmorSnow.ONE_HUNDRED, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
 
+    //-
 
+    public static final Item IRON_RESIN = registerItem("iron_resin", new Item(new FabricItemSettings().maxCount(64)));
 
+    public static final Item NIGHT_LENTILE = registerItem("night_lentile", new Item(new FabricItemSettings().maxCount(64)));
 
+    public static final Item MILITARY_PLATE = registerItem("military_plate", new Item(new FabricItemSettings().maxCount ( 64 )));
 
+    public static final Item CRYSTAL_GRAVITA = registerItem("crystal_gravita", new Item(new FabricItemSettings().maxCount ( 1 )));
 
 
 
@@ -98,6 +103,11 @@ public class ModItems {
         entries.add(THOUSAND);
         entries.add(FIVETHOUSAND);
         entries.add(TENTHOUSAND);
+        entries.add(NIGHT_LENTILE);
+        entries.add(IRON_RESIN);
+        entries.add(MILITARY_PLATE);
+
+
 
     }
     private static Item registerItem(String name, Item item) {

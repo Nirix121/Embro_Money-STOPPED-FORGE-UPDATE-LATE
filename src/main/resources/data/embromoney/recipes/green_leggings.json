@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "category": "misc",
     "pattern": [
-        "iNi",
+        "tNt",
         "iCi",
         "i i"
     ],
@@ -15,6 +15,9 @@
         },
         "C": {
             "item": "minecraft:dirt"
+        },
+        "t": {
+            "item": "embromoney:military_plate"
         }
     },
     "result": {

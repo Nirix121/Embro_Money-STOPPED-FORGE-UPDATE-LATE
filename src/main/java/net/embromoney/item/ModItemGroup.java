@@ -49,6 +49,15 @@ public class ModItemGroup {
                         entries.add(ModItems.MILITARY_CHESTPLATE_SNOW);
                         entries.add(ModItems.MILITARY_HELMET_SNOW);
 
+                        entries.add(ModItems.IRON_RESIN);
+                        entries.add(ModItems.MILITARY_PLATE);
+                        entries.add(ModItems.NIGHT_LENTILE);
+                        entries.add(ModItems.CRYSTAL_GRAVITA);
+
+
+
+
+
 
                         entries.add(Items.DIAMOND);
 
