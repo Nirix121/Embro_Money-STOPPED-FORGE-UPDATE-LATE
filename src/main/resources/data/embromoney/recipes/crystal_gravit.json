@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#N#",
+        "nMn",
+        "ENE"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:amethyst_block"
+        },
+        "N": {
+            "item": "minecraft:netherite_block"
+        },
+        "n": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "M": {
+            "item": "embromoney:military_plate"
+        },
+        "E": {
+            "item": "minecraft:enchanting_table"
+        }
+    },
+    "result": {
+        "item": "embromoney:crystal_gravita",
+        "count": 1
+    }
+}

@@ -106,6 +106,7 @@ public class ModItems {
         entries.add(NIGHT_LENTILE);
         entries.add(IRON_RESIN);
         entries.add(MILITARY_PLATE);
+        entries.add(CRYSTAL_GRAVITA);
 
 
 
