@@ -54,7 +54,10 @@ public class ModItemGroup {
                         entries.add(ModItems.NIGHT_LENTILE);
                         entries.add(ModItems.CRYSTAL_GRAVITA);
 
-
+                        entries.add(ModItems.HELMET_GRAVITA);
+                        entries.add(ModItems.CHESTPLATE_GRAVITA);
+                        entries.add(ModItems.LEGGING_GRAVITA);
+                        entries.add(ModItems.BOOTS_GRAVITA);
 
 
 

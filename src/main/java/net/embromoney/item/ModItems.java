@@ -92,6 +92,18 @@ public class ModItems {
 
 
 
+    public static final Item HELMET_GRAVITA = registerItem("helmet_gravita",
+            new ArmorItem(ModArmorSpe.CRYSTAL_GRAVITA, ArmorItem.Type.HELMET, new FabricItemSettings()));
+
+    public static final Item CHESTPLATE_GRAVITA = registerItem("chestplate_gravita",
+            new ArmorItem(ModArmorSpe.CRYSTAL_GRAVITA, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+
+    public static final Item LEGGING_GRAVITA = registerItem("leggings_gravita",
+            new ArmorItem(ModArmorSpe.CRYSTAL_GRAVITA, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+
+    public static final Item BOOTS_GRAVITA = registerItem("boots_gravita",
+            new ArmorItem(ModArmorSpe.CRYSTAL_GRAVITA, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(ONE);

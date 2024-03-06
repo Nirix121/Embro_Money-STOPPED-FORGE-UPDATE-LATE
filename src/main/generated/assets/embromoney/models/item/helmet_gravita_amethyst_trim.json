@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "embromoney:item/snow_military_helmet",
+    "layer0": "embromoney:item/helmet_gravita",
     "layer1": "minecraft:trims/items/helmet_trim_amethyst"
   }
 }
