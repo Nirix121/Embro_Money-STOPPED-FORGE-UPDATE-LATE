@@ -51,7 +51,9 @@ public class ModItemGroup {
 
                         entries.add(ModItems.IRON_RESIN);
                         entries.add(ModItems.MILITARY_PLATE);
+                        entries.add(ModItems.AIR_BAG);
                         entries.add(ModItems.NIGHT_LENTILE);
+                        entries.add(ModItems.BROKEN_CRYSTAL_GRAVITA);
                         entries.add(ModItems.CRYSTAL_GRAVITA);
 
                         entries.add(ModItems.HELMET_GRAVITA);

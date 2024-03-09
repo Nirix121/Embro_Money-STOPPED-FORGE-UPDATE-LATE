@@ -11,7 +11,7 @@ import java.util.function.Supplier;
 
 
 public enum ModArmorSpe implements ArmorMaterial {
-    CRYSTAL_GRAVITA( "gravit", 5, new int[] { 5, 10, 8, 5 }, 19, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 2f, 0.1f, () -> Ingredient.ofItems(ModItems.CRYSTAL_GRAVITA));
+    CRYSTAL_GRAVITA( "gravit", 100, new int[] { 5, 10, 8, 5 }, 0, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 2f, 0.1f, () -> Ingredient.ofItems(ModItems.CRYSTAL_GRAVITA));
 
 
 

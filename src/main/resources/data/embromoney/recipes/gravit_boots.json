@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "  ",
+        "C C",
+        "i i"
+
+    ],
+    "key": {
+        "i": {
+            "item": "embromoney:air_bag"
+        },
+        "C": {
+            "item": "minecraft:netherite"
+        }
+    },
+    "result": {
+        "item": "embromoney:boots_gravita"
+    }
+}

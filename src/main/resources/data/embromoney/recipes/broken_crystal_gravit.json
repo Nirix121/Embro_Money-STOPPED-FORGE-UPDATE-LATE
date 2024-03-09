@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# #",
+        "   ",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "item": "embromoney:broken_crystal_gravita"
+        }
+    },
+    "result": {
+        "item": "embromoney:crystal_gravit",
+        "count": 1
+    }
+}

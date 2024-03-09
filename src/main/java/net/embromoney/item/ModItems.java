@@ -1,6 +1,7 @@
 package net.embromoney.item;
 
 import net.embromoney.EmbroMoney;
+import net.embromoney.item.custom.*;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -11,6 +12,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.util.Identifier;
 import net.embromoney.item.ModItems;
+import net.embromoney.item.custom.ModArmorItem;
 
 
 
@@ -88,21 +90,26 @@ public class ModItems {
 
     public static final Item MILITARY_PLATE = registerItem("military_plate", new Item(new FabricItemSettings().maxCount ( 64 )));
 
+    public static final Item AIR_BAG = registerItem("air_bag", new Item(new FabricItemSettings().maxCount( 64 )));
+
+    public static final Item BROKEN_CRYSTAL_GRAVITA = registerItem("broken_crystal_gravita", new Item(new FabricItemSettings().maxCount ( 6 )));
+
+
     public static final Item CRYSTAL_GRAVITA = registerItem("crystal_gravita", new Item(new FabricItemSettings().maxCount ( 1 )));
 
 
 
     public static final Item HELMET_GRAVITA = registerItem("helmet_gravita",
-            new ArmorItem(ModArmorSpe.CRYSTAL_GRAVITA, ArmorItem.Type.HELMET, new FabricItemSettings()));
+            new ModArmorItem4(ModArmorSpe.CRYSTAL_GRAVITA, ArmorItem.Type.HELMET, new FabricItemSettings()));
 
     public static final Item CHESTPLATE_GRAVITA = registerItem("chestplate_gravita",
-            new ArmorItem(ModArmorSpe.CRYSTAL_GRAVITA, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+            new ModArmorItem3(ModArmorSpe.CRYSTAL_GRAVITA, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
 
     public static final Item LEGGING_GRAVITA = registerItem("leggings_gravita",
-            new ArmorItem(ModArmorSpe.CRYSTAL_GRAVITA, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+            new ModArmorItem2(ModArmorSpe.CRYSTAL_GRAVITA, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
 
     public static final Item BOOTS_GRAVITA = registerItem("boots_gravita",
-            new ArmorItem(ModArmorSpe.CRYSTAL_GRAVITA, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+            new ModArmorItem(ModArmorSpe.CRYSTAL_GRAVITA, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
@@ -118,6 +125,7 @@ public class ModItems {
         entries.add(NIGHT_LENTILE);
         entries.add(IRON_RESIN);
         entries.add(MILITARY_PLATE);
+        entries.add(BROKEN_CRYSTAL_GRAVITA);
         entries.add(CRYSTAL_GRAVITA);
 
 

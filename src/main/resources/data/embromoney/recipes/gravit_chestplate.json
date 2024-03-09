@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "NCN",
+        "ttt",
+        "NCN"
+
+    ],
+    "key": {
+        "i": {
+            "item": "embromoney:military_plate"
+        },
+        "N": {
+            "item": "minecraft:netherite_block"
+        },
+        "C": {
+            "item": "minecraft:netherite"
+        },
+        "t": {
+            "item": "embromoney:crystal_gravita"
+        }
+    },
+    "result": {
+        "item": "embromoney:chestplate_gravita"
+    }
+}

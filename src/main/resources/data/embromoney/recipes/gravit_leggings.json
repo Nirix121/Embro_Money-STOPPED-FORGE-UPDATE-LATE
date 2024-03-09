@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "NtN",
+        "c c",
+        "N N"
+
+    ],
+    "key": {
+        "N": {
+            "item": "minecraft:netherite_block"
+        },
+        "C": {
+            "item": "minecraft:netherite"
+        },
+        "t": {
+            "item": "embromoney:crystal_gravita"
+        }
+    },
+    "result": {
+        "item": "embromoney:leggings_gravita"
+    }
+}

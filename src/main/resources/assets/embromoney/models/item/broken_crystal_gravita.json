@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "embromoney:item/broken_crystal_gravita"
+  }
+}
