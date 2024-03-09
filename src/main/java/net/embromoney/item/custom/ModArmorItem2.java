@@ -16,8 +16,8 @@ import java.util.Map;
 public class ModArmorItem2 extends ArmorItem {
     private static final Map<ArmorMaterial, StatusEffectInstance> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<ArmorMaterial, StatusEffectInstance>())
-                    .put(ModArmorSpe.CRYSTAL_GRAVITA, new StatusEffectInstance(StatusEffects.SPEED, 400, 4,
-                            false, false, true)).build();
+                    .put(ModArmorSpe.CRYSTAL_GRAVITA, new StatusEffectInstance(StatusEffects.SPEED, 150, 4,
+                            false, false, false)).build();
     public ModArmorItem2(ArmorMaterial material, Type type, Settings settings) {
         super(material, type, settings);
     }
