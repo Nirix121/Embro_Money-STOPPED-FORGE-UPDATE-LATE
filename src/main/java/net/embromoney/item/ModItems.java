@@ -14,7 +14,7 @@ import net.minecraft.util.Identifier;
 import net.embromoney.item.ModItems;
 import net.embromoney.item.custom.ModArmorItem;
 
-
+import static net.minecraft.village.VillagerProfession.BUTCHER;
 
 
 public class ModItems {
@@ -110,6 +110,20 @@ public class ModItems {
 
     public static final Item BOOTS_GRAVITA = registerItem("boots_gravita",
             new ModArmorItem(ModArmorSpe.CRYSTAL_GRAVITA, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    public static final Item OFFICER_HELMET = registerItem("officer_helmet",
+            new ModArmorItem(ModArmorSS.MILITARY_PLATE, ArmorItem.Type.HELMET, new FabricItemSettings()));
+
+
+    public static final Item TEST = registerItem("test",
+            new ModArmorItem(ModArmorDONATE.BROKEN_CRYSTAL_GRAVITA, ArmorItem.Type.HELMET, new FabricItemSettings()));
+
+
+    // public static final Item TEST = registerItem("test", new Item(new FabricItemSettings().maxCount ( 1 )));
+
+
+
+
 
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {

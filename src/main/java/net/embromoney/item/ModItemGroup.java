@@ -48,7 +48,6 @@ public class ModItemGroup {
                         entries.add(ModItems.MILITARY_LEGGING_SNOW);
                         entries.add(ModItems.MILITARY_CHESTPLATE_SNOW);
                         entries.add(ModItems.MILITARY_HELMET_SNOW);
-
                         entries.add(ModItems.IRON_RESIN);
                         entries.add(ModItems.MILITARY_PLATE);
                         entries.add(ModItems.AIR_BAG);
@@ -60,11 +59,9 @@ public class ModItemGroup {
                         entries.add(ModItems.CHESTPLATE_GRAVITA);
                         entries.add(ModItems.LEGGING_GRAVITA);
                         entries.add(ModItems.BOOTS_GRAVITA);
+                        entries.add(ModItems.OFFICER_HELMET);
 
-
-
-
-                        entries.add(Items.DIAMOND);
+                        entries.add(ModItems.TEST);
 
 
                     }).build());

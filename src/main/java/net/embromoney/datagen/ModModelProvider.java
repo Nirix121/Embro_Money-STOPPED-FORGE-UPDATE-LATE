@@ -52,6 +52,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.LEGGING_GRAVITA));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.BOOTS_GRAVITA));
 
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.OFFICER_HELMET));
+
+        itemModelGenerator.registerArmor(((ArmorItem) ModItems.TEST));
+
 
     }
 }

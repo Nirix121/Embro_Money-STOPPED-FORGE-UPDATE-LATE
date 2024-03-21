@@ -10,8 +10,8 @@ import net.minecraft.sound.SoundEvents;
 import java.util.function.Supplier;
 
 
-public enum ModArmorSpe implements ArmorMaterial {
-    CRYSTAL_GRAVITA( "gravit", 23, new int[] { 5, 10, 8, 5 }, 0, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 2f, 0.1f, () -> Ingredient.ofItems(ModItems.CRYSTAL_GRAVITA));
+public enum ModArmorDONATE implements ArmorMaterial {
+    BROKEN_CRYSTAL_GRAVITA( "test", 23, new int[] { 5, 10, 8, 5 }, 0, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 2f, 0.1f, () -> Ingredient.ofItems(ModItems.BROKEN_CRYSTAL_GRAVITA));
 
 
 
@@ -26,8 +26,8 @@ public enum ModArmorSpe implements ArmorMaterial {
 
     private static final int[] BASE_DURABILITY = { 12, 16, 15, 13 };
 
-    ModArmorSpe(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound,
-                float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient) {
+    ModArmorDONATE(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantability, SoundEvent equipSound,
+                   float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient) {
         this.name = name;
         this.durabilityMultiplier = durabilityMultiplier;
         this.protectionAmounts = protectionAmounts;

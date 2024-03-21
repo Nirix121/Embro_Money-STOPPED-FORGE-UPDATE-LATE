@@ -16,7 +16,7 @@ import java.util.Map;
 public class ModArmorItem extends ArmorItem {
     private static final Map<ArmorMaterial, StatusEffectInstance> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<ArmorMaterial, StatusEffectInstance>())
-                    .put(ModArmorSpe.CRYSTAL_GRAVITA, new StatusEffectInstance(StatusEffects.DOLPHINS_GRACE, 200, 2,
+                    .put(ModArmorSpe.CRYSTAL_GRAVITA, new StatusEffectInstance(StatusEffects.DOLPHINS_GRACE, 200, 1,
                             false, false, false)).build();
     public ModArmorItem(ArmorMaterial material, Type type, Settings settings) {
         super(material, type, settings);

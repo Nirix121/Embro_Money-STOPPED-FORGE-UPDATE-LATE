@@ -11,12 +11,13 @@ import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
+
 import java.util.Map;
 
 public class ModArmorItem2 extends ArmorItem {
     private static final Map<ArmorMaterial, StatusEffectInstance> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<ArmorMaterial, StatusEffectInstance>())
-                    .put(ModArmorSpe.CRYSTAL_GRAVITA, new StatusEffectInstance(StatusEffects.SPEED, 150, 4,
+                    .put(ModArmorSpe.CRYSTAL_GRAVITA, new StatusEffectInstance(StatusEffects.SPEED, 150, 1,
                             false, false, false)).build();
     public ModArmorItem2(ArmorMaterial material, Type type, Settings settings) {
         super(material, type, settings);
